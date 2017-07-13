@@ -1,6 +1,7 @@
 # How to use
 
 This is a fork from mritd/shadowsocks and adds kcptun client as well.
+So I can also use this docker image as a client on my linux.
 
 ## server
 
@@ -23,4 +24,6 @@ docker run -d --name ss-local -p $LOCAL_PORT:$LOCAL_PORT ronninx/shadowsocks -m 
 change `IP` to your server ip address and `PASS` to that of your server.
 
 ## Done
-Now you have a socks proxy running on 127.0.0.1:6444.
+
+Now you have a socks proxy running on `127.0.0.1:6444`.
+Modify your firefox proxy with FoxyProxy.
